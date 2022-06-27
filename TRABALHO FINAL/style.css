@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.897);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 14%;
+    
+}
+nav {
+    padding-left: 50px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 55px;
+    font-size: 18px;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+body{
+    background: #c4c4c4b0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 150px;
+    margin-top: 0.4%;
+}
+
+body ul li a {
+    color: black;
+}
+body ul li a:hover {
+    color: white;
+}
+
+#inicio{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.coloricon{
+    color: white;
+}
+
+#produtos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5%;
+}
+
+.produto{
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 1%;
+    padding: 10px;
+}
+
+#descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.desproduto {
+    text-align: center;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+.checkbox{
+    margin-left: 12.5%;
+}
+
+.info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 17px;
+    color: rgb(66, 70, 77);
+}
+
+.des{
+padding-right:10px;
+}
+
+.desc{
+    margin-top: 10px;
+}
+
+.produto-escrita{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0, 0, 0, 0.897);
+    border: none;
+
+    margin-top: 10px;
+    padding: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 4%;
+}
+
+.botao a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: #14141486;
+}
+
+
+.bannerdivul{
+    margin-top: -2.5%;
+}
+
+#cadastro {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.tamanho {
+    height: 25px;
+}
+
+.spam {
+    padding-top: 1.5%;
+
+}
+
+.msg-spam {
+    padding-top: 4%;
+}
+
+#bmensagem {
+    background-color: rgba(0, 0, 0, 0.829);
+    border: none;
+    color: white;
+
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+#bmensagem:hover {
+    background-color: #141414;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.contato {
+    margin-left: 47%;
+}
+
+#projetos {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+
+.distproj{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#port {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}

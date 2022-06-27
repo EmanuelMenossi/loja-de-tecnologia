@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/71bb1b85c8.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <title>Anunciar</title>
+</head>
+<div>
+    <header>
+        <img src="img/Logo.png" alt="" width="10%">
+        <div class="navbar">
+            <nav>
+                <i class="fa-solid fa-microchip coloricon des"> </i>
+                <a href="inicio.html">Inicio</a>
+                <i class="fa-solid fa-bullhorn coloricon des"></i>
+                <a href="cadastro.html">Anunciar</a>
+                <i class="fa-solid fa-shop coloricon des"></i>
+                <a href="produtos.html">Produtos</a>
+                <i class="fa-solid fa-user coloricon des"></i>
+                <a href="aluno.html">Aluno</a>
+            </nav>
+        </div>
+    </header>
+</div>
+
+<body>
+    <div class="container">
+    <div class="bannerdivul">
+        <img src="img/divulgacaotst.png" alt="" width="100%">
+    </div>
+        <div id="cadastro">
+            <h2> Cadastrar anuncio na plataforma <i class="fa-solid fa-bullhorn"></i></h2>
+            <hr>
+            <form action="FCadastro">
+                <div class="anuncio spam centralizar">
+                    <label for="tnome">Título do anuncio</label><br>
+                    <input type="text" id="ttitulo" size="40" maxlength="30" placeholder="Digite o titulo..."
+                        required="required" autofocus="true" class="tamanho">
+                </div>
+
+                <div class="Obs spam centralizar">
+                    <label for="obs">Descrição:</label><br>
+                    <textarea name="Observação" id="obs" cols="30" rows="10"></textarea>
+
+                </div>
+                <div class="Hobs spam">
+                    <div class="centralizar"><label for="tcategoria"> Selecione a categoria(s) do produto:</label></div><br>
+                    <div class="checkbox">
+                        <input type="checkbox" name="categoria" id="tcategoria" value="1"> Hardware <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="2"> Games <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="3"> Cadeiras <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="4"> Computadores <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="5"> TV <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="6"> Periféricos <br>
+                        <input type="checkbox" name="categoria" id="tcategoria" value="7"> Áudio <br>
+                    </div>
+                </div>
+
+                <div class="telefone spam centralizar">
+                    <label for="tfone">Celular:</label><br>
+                    <input type="tel" name="telefone" id="tfone" size="30" pattern="\(\d{2})\)\s\d{5}- \d{4}"
+                        placeholder="(99) 99999-9999" required="required" autofocus="true" class="tamanho">
+                </div>
+
+
+                <div class="msg-spam centralizar">
+                    <input type="button" id="bmensagem" value="Enviar" onclick="alert('Anuncio enviado!')">
+                    <input type="reset" id="bmensagem" value="Limpar">
+                    <input type="submit" id="bmensagem" value="Salvar">
+                </div>
+        </div>
+    </div>
+    </form>
+    </div>
+
+    </div>
+
+    <footer>
+    </footer>
+
+</body>
+
+</html>
